@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLBB ROLES - JHAN ERICK IBUSAG</title>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+    background-image: url(bg1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 190px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+header h2 {
+    margin: 0;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 20px); 
+    max-width: 300px;
+ 
+    padding: 10px;
+    border-radius: 8px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+}
+
+.logo {
+    position: absolute;
+     top: 20px;
+    left: 20px;
+    font-size: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MLBB<br>ROLES</h1>
+        <div class="logo">MLBB ROLES - JHAN ERICK IBUSAG</div>
+        
+    </header>
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="1.jpg" alt="TANKS">
+        </div>
+        <div class="gallery-item">
+            <img src="2.jpg" alt="FIGHTERS">
+        </div>
+        <div class="gallery-item">
+            <img src="3.jpg" alt="ASSASSINS">
+        </div>
+        <div class="gallery-item">
+            <img src="4.jpg" alt="MAGES">
+        </div>
+        <div class="gallery-item">
+            <img src="5.jpg" alt="MARKSMAN">
+        </div>
+        <div class="gallery-item">
+            <img src="6.jpg" alt="SUPPORT">
+        </div>
+        
+    </section>
+    
+</body>
+</html>
